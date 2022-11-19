@@ -11,11 +11,11 @@ Postconditions:
     - The car with the given VIN is no longer part of the fleet
 
 Flow:
-1. Actor deletes a car from the fleet by providing the VIN
+1. Actor deletes a car from the fleet by choosing a car from the fleet overview
 2. System validates that the given VIN is valid and a car with the given VIN is present in the fleet
 3. System removes the car from the fleet
 
-Alternative flows:
+Alternative flows (should not happen by design):
 2a. Given VIN is invalid
     2a1. System prompts actor to re-enter the VIN
 2b. A car with the given VIN is not present in the fleet

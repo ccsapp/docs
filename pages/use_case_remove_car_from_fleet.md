@@ -18,10 +18,10 @@ Flow:
 5. System removes the car from the fleet
 
 Alternative flows:
-2a. Given VIN is invalid
-    2a1. System prompts actor to re-enter the VIN
-2b. A car with the given VIN is not present in the fleet
-    2b1. System informs the actor that the car is not in the fleet and stops the use case
+2a. Given VIN is invalid (Probably an error of the front end)
+    2a1. System informs user of the failure to remove the car and suggests trying again
+2c. System detects an error in the communication with the backend.
+    2c1. The system informs user about the failed communication and stops the use case
 4a. Actor denies removal
     4a1. System stops the use case without removing the car
 

@@ -51,6 +51,8 @@ Desktop: user tried to add a car that is already part of the fleet
 Mobile: (left to right) add car to fleet, user entered invalid VIN, 
 user tried to add a car that is already part of the fleet  
 ![](../figures/mocks/add_car_to_fleet_mobile.png)
+![](../figures/mocks/add_car_to_fleet_invalid_mobile.png)
+![](../figures/mocks/add_car_to_fleet_duplicate_mobile.png)
 
 ### Mockup for Use Case ["Remove Car from Fleet"](./use_case_remove_car_from_fleet.md)
 

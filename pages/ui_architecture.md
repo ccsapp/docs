@@ -2,7 +2,7 @@
 
 The following architecture depicts V1.0 of the UI-CCSAppWebVP. The architecture consists of the UI-CCSAppWebVP itself and the Process API which provides all data as a RESTful web service.
 
-<img src="../figures/ui_architecture.png" style="height:400px; " /></img>
+<img src="../figures/ui_architecture.png" height="600px; " /></img>
 
 ## UI-CCSAppWeb
 

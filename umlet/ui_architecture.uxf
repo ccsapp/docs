@@ -33,7 +33,7 @@ AppRouting
 </panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>704</x><y>176</y><w>80</w><h>112</h></coordinates><panel_attributes>lt=[]-(
 </panel_attributes><additional_attributes>20;10;20;40</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>624</x><y>784</y><w>240</w><h>96</h></coordinates><panel_attributes>symbol=component
 &lt;&lt;ng service&gt;&gt;
-fleet-managment</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>704</x><y>608</y><w>80</w><h>112</h></coordinates><panel_attributes>lt=[]-(</panel_attributes><additional_attributes>20;10;20;40</additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>688</y><w>48</w><h>128</h></coordinates><panel_attributes>lt=()-[]
+fleet-data</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>704</x><y>608</y><w>80</w><h>112</h></coordinates><panel_attributes>lt=[]-(</panel_attributes><additional_attributes>20;10;20;40</additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>688</y><w>48</w><h>128</h></coordinates><panel_attributes>lt=()-[]
 
 
 </panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>624</x><y>1248</y><w>224</w><h>80</h></coordinates><panel_attributes>symbol=component

@@ -21,29 +21,49 @@ fontsize=10
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
-// This text will be stored with each diagram;  use it for notes.</help_text><element><id>UMLDeployment</id><coordinates><x>128</x><y>64</y><w>528</w><h>1088</h></coordinates><panel_attributes>&lt;&lt;browser&gt;&gt;
-UI-CCSAppWebVP2.0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>160</x><y>400</y><w>448</w><h>288</h></coordinates><panel_attributes>symbol=component
-&lt;&lt;ng component&gt;&gt;
-FleetOverview
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>160</x><y>160</y><w>240</w><h>96</h></coordinates><panel_attributes>symbol=component
+// This text will be stored with each diagram;  use it for notes.</help_text><element><id>UMLDeployment</id><coordinates><x>112</x><y>0</y><w>864</w><h>1120</h></coordinates><panel_attributes>&lt;&lt;browser&gt;&gt;
+CCSAppWebVP2.0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>144</x><y>336</y><w>704</w><h>320</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;ng module&gt;&gt;
+Dashboard
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>144</x><y>96</y><w>240</w><h>96</h></coordinates><panel_attributes>symbol=component
 &lt;&lt;ng module&gt;&gt;
 AppRouting
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>928</y><w>80</w><h>112</h></coordinates><panel_attributes>lt=[]-(
-</panel_attributes><additional_attributes>20;10;20;40</additional_attributes></element><element><id>Relation</id><coordinates><x>256</x><y>320</y><w>48</w><h>112</h></coordinates><panel_attributes>lt=()-[]
-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>240</y><w>80</w><h>112</h></coordinates><panel_attributes>lt=[]-(
-</panel_attributes><additional_attributes>20;10;20;40</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>160</x><y>848</y><w>240</w><h>96</h></coordinates><panel_attributes>symbol=component
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>224</x><y>896</y><w>80</w><h>112</h></coordinates><panel_attributes>lt=[]-(
+</panel_attributes><additional_attributes>20;10;20;40</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>256</y><w>48</w><h>112</h></coordinates><panel_attributes>lt=()-[]
+</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>224</x><y>176</y><w>80</w><h>112</h></coordinates><panel_attributes>lt=[]-(
+</panel_attributes><additional_attributes>20;10;20;40</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>144</x><y>816</y><w>240</w><h>96</h></coordinates><panel_attributes>symbol=component
 &lt;&lt;ng service&gt;&gt;
-fleet-data</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>672</y><w>80</w><h>112</h></coordinates><panel_attributes>lt=[]-(</panel_attributes><additional_attributes>20;10;20;40</additional_attributes></element><element><id>Relation</id><coordinates><x>256</x><y>752</y><w>48</w><h>128</h></coordinates><panel_attributes>lt=()-[]
+fleet-data</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>224</x><y>640</y><w>80</w><h>128</h></coordinates><panel_attributes>lt=[]-(</panel_attributes><additional_attributes>20;10;20;50</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>736</y><w>48</w><h>112</h></coordinates><panel_attributes>lt=()-[]
 
 
-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>160</x><y>1312</y><w>224</w><h>80</h></coordinates><panel_attributes>symbol=component
-&lt;&lt;process-api&gt;&gt;
-P-FleetManagement</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>256</x><y>1008</y><w>144</w><h>160</h></coordinates><panel_attributes>lt=&lt;.
-m2=&lt;&lt;delegate&gt;&gt;</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>1136</y><w>80</w><h>128</h></coordinates><panel_attributes>lt=[]-(
-</panel_attributes><additional_attributes>20;10;20;50</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>336</x><y>496</y><w>256</w><h>80</h></coordinates><panel_attributes>symbol=component
+</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>144</x><y>1280</y><w>352</w><h>80</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;application microservice&gt;&gt;
+FleetManagement</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>960</y><w>144</w><h>160</h></coordinates><panel_attributes>lt=&lt;.
+m2=&lt;&lt;delegate&gt;&gt;</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>224</x><y>1104</y><w>80</w><h>112</h></coordinates><panel_attributes>lt=[]-(
+</panel_attributes><additional_attributes>20;10;20;40</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>192</x><y>496</y><w>256</w><h>96</h></coordinates><panel_attributes>symbol=component
 &lt;&lt;ng component&gt;&gt;
 AddCarModal
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>256</x><y>1232</y><w>48</w><h>112</h></coordinates><panel_attributes>lt=()-</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>336</x><y>592</y><w>256</w><h>80</h></coordinates><panel_attributes>symbol=component
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>1184</y><w>48</w><h>128</h></coordinates><panel_attributes>lt=()-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>480</x><y>496</y><w>288</w><h>96</h></coordinates><panel_attributes>symbol=component
 &lt;&lt;ng component&gt;&gt;
-DeleteCarModal
-</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+RemoveCarModal
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>400</x><y>816</y><w>240</w><h>96</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;ng service&gt;&gt;
+modal</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>496</x><y>704</y><w>48</w><h>144</h></coordinates><panel_attributes>lt=()-[]
+
+
+</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>176</x><y>416</y><w>624</w><h>208</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;ng component&gt;&gt;
+FleetOverview
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>656</x><y>816</y><w>288</w><h>288</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;ng module&gt;&gt;
+shared</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>736</x><y>640</y><w>80</w><h>128</h></coordinates><panel_attributes>lt=[]-(</panel_attributes><additional_attributes>20;10;20;50</additional_attributes></element><element><id>Relation</id><coordinates><x>752</x><y>736</y><w>48</w><h>112</h></coordinates><panel_attributes>lt=()-[]
+
+
+</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>688</x><y>912</y><w>240</w><h>80</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;ng component&gt;&gt;
+ErrorMessageModal</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>688</x><y>1008</y><w>240</w><h>80</h></coordinates><panel_attributes>symbol=component
+&lt;&lt;ng component&gt;&gt;
+Modal</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>512</x><y>688</y><w>128</w><h>80</h></coordinates><panel_attributes>lt=-(</panel_attributes><additional_attributes>60;20;20;20</additional_attributes></element><element><id>Relation</id><coordinates><x>304</x><y>688</y><w>224</w><h>80</h></coordinates><panel_attributes>lt=-(</panel_attributes><additional_attributes>10;20;110;20</additional_attributes></element><element><id>Relation</id><coordinates><x>304</x><y>576</y><w>48</w><h>176</h></coordinates><panel_attributes>lt=[]-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>592</x><y>576</y><w>48</w><h>176</h></coordinates><panel_attributes>lt=[]-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>496</x><y>896</y><w>48</w><h>96</h></coordinates><panel_attributes>lt=()-[]
+
+
+</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>512</x><y>928</y><w>208</w><h>80</h></coordinates><panel_attributes>lt=[]-(</panel_attributes><additional_attributes>110;20;20;20</additional_attributes></element><element><id>Relation</id><coordinates><x>448</x><y>928</y><w>80</w><h>80</h></coordinates><panel_attributes>lt=-(</panel_attributes><additional_attributes>10;20;20;20</additional_attributes></element><element><id>Relation</id><coordinates><x>448</x><y>944</y><w>272</w><h>144</h></coordinates><panel_attributes>lt=[]-</panel_attributes><additional_attributes>150;70;10;70;10;10</additional_attributes></element></diagram>

@@ -16,6 +16,18 @@
 
 [Use Case "View Fleet Overview"](pages/use_case_view_fleet_overview.md)
 
+[Use Case "View Car Status"](pages/use_case_view_car_status.md)
+
+[Use Case "View Rental Status"](pages/use_case_view_rental_status.md)
+
+[Use Case "View Rentals Overview"](pages/use_case_view_rentals_overview.md)
+
+[Use Case "Create Car Rental"](pages/use_case_create_car_rental.md)
+
+[Use Case "Grant Trunk Access"](pages/use_case_grant_trunk_access.md)
+
+[Use Case "Change Trunk Lock State"](pages/use_case_change_trunk_lock_state.md)
+
 ## DESIGN
 
 [Software Architecture](pages/software_architecture.md)

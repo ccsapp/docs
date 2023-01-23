@@ -4,7 +4,7 @@
 Title: View Fleet Overview
 
 Primary Actors: Fleet Manager
-Secondary Actors: Rental System 
+Secondary Actors: 
 
 Preconditions: 
     - System has a fleet registered for the actor 
@@ -15,8 +15,6 @@ Flow:
 2. System gives a list of all cars with their VIN, brand, model, and production date to the actor
 
 Alternative flows:
-2a. System detects failure to communicate with the rental system 
-    2a1. System signals error to the actor and stops the use case 
 
 Information Requirements: 
     Connected Car System:

@@ -48,12 +48,6 @@ Desktop: user entered invalid VIN:
 Desktop: user tried to add a car that is already part of the fleet  
 ![](../figures/mocks/add_car_to_fleet_duplicate_desktop.png)
 
-Mobile: (left to right) add car to fleet, user entered invalid VIN, 
-user tried to add a car that is already part of the fleet  
-![](../figures/mocks/add_car_to_fleet_mobile.png)
-![](../figures/mocks/add_car_to_fleet_invalid_mobile.png)
-![](../figures/mocks/add_car_to_fleet_duplicate_mobile.png)
-
 ### Mockup for Use Case ["Remove Car from Fleet"](./use_case_remove_car_from_fleet.md)
 
 Desktop:  
@@ -61,6 +55,53 @@ Desktop:
 
 Mobile:  
 ![](../figures/mocks/remove_car_from_fleet_mobile.png)
+
+### Mockup for ["View Car Detail"](./use_case_view_car_status.md)
+
+Desktop:  
+![](../figures/mocks/view_car_status_desktop.png)
+
+Mobile:  
+![](../figures/mocks/view_car_status_mobile.png)
+
+#Mockup for ["View Rentals Overview"](./use_case_view_rentals_overview.md)
+
+Desktop:  
+![](../figures/mocks/view_rentals_overview_desktop.png)
+
+Mobile:  
+![](../figures/mocks/view_rentals_overview_mobile.png)
+
+### Mockups for ["View Rental Status"](./use_case_view_rental_status.md), ["Change Trunk Lock State"](./use_case_change_trunk_lock_state.md) as a Customer, ["Grant Trunk Access"](./use_case_grant_trunk_access.md) 
+
+Desktop:  
+![](../figures/mocks/view_rental_status_active_rental_overview_desktop.png)  
+![](../figures/mocks/view_rental_status_active_with_trunk_rental_overview_desktop.png)  
+![](../figures/mocks/view_rental_status_upcoming_rental_overview_desktop.png)  
+
+Mobile:  
+![](../figures/mocks/view_rental_status_active_rental_overview_mobile.png)
+![](../figures/mocks/view_rental_status_active_with_trunk_rental_overview_mobile.png)
+
+### Mockup for ["Create Car Rental"](./use_case_create_car_rental.md)
+
+Desktop:  
+![](../figures/mocks/create_car_rental_desktop.png)
+![](../figures/mocks/create_car_rental_detail_desktop.png)
+
+Mobile:  
+![](../figures/mocks/create_car_rental_mobile.png)
+![](../figures/mocks/create_car_rental_detail_mobile.png)
+
+### Mockup for ["Change Trunk Lock State"](./use_case_change_trunk_lock_state.md) as Trunk Opener  
+
+Desktop:  
+![](../figures/mocks/change_trunk_lock_state_desktop.png)
+![](../figures/mocks/change_trunk_lock_state_error_desktop.png)
+
+Mobile:  
+![](../figures/mocks/change_trunk_lock_state_mobile.png)
+![](../figures/mocks/change_trunk_lock_state_error_mobile.png.png)
 
 ## Abbreviations
 

@@ -27,4 +27,3 @@ Alternative flows:
 Information Requirements:
     (none)
 ```
-

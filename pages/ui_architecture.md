@@ -1,24 +1,60 @@
 # UI Architecture
 
-The following architecture depicts V1.0 of the UI-CCSAppWebVP. The architecture consists of the UI-CCSAppWebVP itself and the Process API which provides all data as a RESTful web service.
+The following architecture depicts V2.1 of the CCSAppWebVP. The architecture consists of the CCSAppWebVP itself and the microservice FleetManagement as well as a microservice RentalManagement, which provide all data as a RESTful web service.
 
 <img src="../figures/ui_architecture.png" height="600px; " /></img>
 
-## UI-CCSAppWeb
+## Routing within the App
 
-The UI is implemented in Angular and consists of a variety of components that are responsible for displaying data; and services, which implement the necessary logic for fetching and updating the data.
+`/` provides the login page.
+
+`/dashboard` routes the user to their dashboard. For a Fleet Manager this will be the fleetOverview located within the FleetManagerDashboard module, for a Customer this will be the rentalsOverview located within the CustomerDashboard module.
+
+`/trunkAccess/:rentalId?token=exampleToken` provides the current trunk lock state to a trunk opener and allows him to change it.
+
+## CCSAppWeb Modules and Services
+
+The next section gives an overview of the modules and services of CCSAppWeb v2.1.
 
 ### Module AppRouting
 
-The module AppRouting is responsible for mapping Angular components to routes. It uses the underlying Angular Routing [Ang-Rou] module. For now there will be only one route which maps to the overview component. Still this Module is added for expandability reasons. This facilitates the addtion of future components. 
+The module AppRouting is responsible for mapping routes to Angular components. It uses the underlying Angular Routing [Ang-Rou] module. For an overview of the routes see section `Routing within the App`.
 
-### Component FleetOverview
+### Module FleetManagerDashboard
 
-The component FleetOverview is responsible for displaying fleet data. It displays a table that summarizes all of the vehicles in the manager's fleet and allows for adding and removing vehicles to the fleet. From this component it will be possible to start the use cases ["Add Car to Fleet"](./use_case_add_car_to_fleet.md) and ["Remove Car from Fleet"](./use_case_remove_car_from_fleet.md)  
+With this module a FleetManager can see their fleet and details of the cars within. They can also add and remove cars from the fleet.
 
-### Fleet Management Service
+### Module CustomerDashbaord
 
-The P-Fleet-Management service implements the backend communication required by the component FleetOverview. This includes the logic to fetch the fleet data from the backend and to send HTTP requests to add or remove cars from the fleet. Under the hood, the service uses Angular's HTTP client to perform the HTTP requests. The URL of the Process API is injected into the service as an environment variable. 
+This module enables a Customer to view and create rentals, as well as grant trunk accesss to an active rental.
+
+### Module TrunkOpenerDashboard
+
+This modules holds the components that enables a Trunk Opener to view and change a car’s trunk lock state.
+
+### Module Shared
+
+This module contains all shared components, such as the staticDataCard component and the toast component.
+
+### Toast Service
+
+The toast service manages messages that need to be displayed to a user while using our app. These messages are mainly error messages. It correlates with the toast component that actually displays the message to the user.
+
+### Auth Service
+
+The auth service stores authorisation information, that is a user’s role and their login status.
+
+### Title Service
+
+The title service is responsible for displaying the correct title within the navbar.
+
+### Fleet Data Service
+
+The fleet-data service communicates with the microservice FleetManagement. It can GET a fleet, PUT and DELETE cars, as well as GET the status of a car.
+
+### Rental Data Service
+
+The rental-data service communicates with the microservice RentalManagement. To view all implemented methods see the API Diagramm or the [OpenAPISpec](https://git.scc.kit.edu/cm-tm/cm-team/projectwork/pse/application/rentalmanagementdesign/-/blob/main/openapi.yaml).
 
 ## Backend Connection
 

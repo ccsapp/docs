@@ -10,7 +10,7 @@ The following architecture depicts V2.1 of the CCSAppWebVP. The architecture con
 
 `/dashboard` routes the user to their dashboard. For a Fleet Manager this will be the fleetOverview located within the FleetManagerDashboard module, for a Customer this will be the rentalsOverview located within the CustomerDashboard module.
 
-`/trunkAccess/:rentalId?token=exampleToken` provides the current trunk lock state to a trunk opener and allows him to change it.
+`/trunkAccess/:vin?token=exampleToken` provides the current trunk lock state to a trunk opener and allows him to change it.
 
 ## CCSAppWeb Modules and Services
 

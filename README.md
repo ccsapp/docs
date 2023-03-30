@@ -2,7 +2,7 @@
 
 This repository contains the CCSApp project documentation.
 
-For a more general overview, take a look [here](https://github.com/ccsapp/.github)
+For a more general overview, take a look [here](https://github.com/ccsapp).
 
 ## ANALYSIS
 

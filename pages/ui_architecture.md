@@ -54,7 +54,7 @@ The fleet-data service communicates with the microservice FleetManagement. It ca
 
 ### Rental Data Service
 
-The rental-data service communicates with the microservice RentalManagement. To view all implemented methods see the API Diagramm or the [OpenAPISpec](https://git.scc.kit.edu/cm-tm/cm-team/projectwork/pse/application/rentalmanagementdesign/-/blob/main/openapi.yaml).
+The rental-data service communicates with the microservice RentalManagement. To view all implemented methods see the API Diagramm or the [OpenAPISpec](https://github.com/ccsapp/RentalManagementDesign/blob/main/openapi.yaml).
 
 ## Backend Connection
 

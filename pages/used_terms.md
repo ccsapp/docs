@@ -1,9 +1,23 @@
 # Used Terms
 
-## Used Terms of the Ubiquitous Language of the Domain ConnectedCar 
+# Car-related Terms
 
-The following terms are part of the [Ubiquitous Language of the Domain ConnectedCar](https://git.scc.kit.edu/cm-tm/cm-team/connectedcar/domain/0.docconnectedcar/-/blob/master/pages/ubiquitous_language.md):
-- Brand, Car, Fleet, Model, Production Date, VIN.
+The ubiquitous language defined in this documentation is the language foundation of the terms that are consistently used in the doamin ConnectedCar and in the applications residing to this domain. New applications can add additional terms to this foundation if the terms are application-agnostic and, threfore, needed by other applications that are based on the domain ConnectedCar.
+
+| Term                | Definition                                                                                                                                     | Remarks                                                                                                                                         |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Brand               | Data that specifies the brand name of the Vehicle manufacturer                                                      |  
+| Car                 | A specific type of vehicle                                                                                      | 
+| Consumption         | Data that specifies the consumed fuel of the engine, expressed in units such as liters or kWh per kilometer     |
+| Emissions           | Data that specifies the CO2 emitted by a Vehicle during operation in gram per kilometer                             | 
+| Fleet               | A set of vehicles                                                                                               |
+| Fuel                | Data that defines the source of energy that powers the Vehicle such as petrol or electric energy                                               | 
+| Production Date             | Data that specifies the date on which the vehicle was fully assembled                                                             |  
+| Technical Specification | Data of a Vehicle encapsulating the core physical makeup and performance of the vehicle                         | 
+| Trunk               | A covered space of a Vehicle which is the main storage or cargo compartment | 
+| Vehicle             | A physical unit which is used to transport persons and/or goods. Examples of vehicles are: bicycle, bus, car, train, truck            |    
+| VIN | Data which uniquely identifies a Vehicle
+
 
 ## Application-related Terms
 
@@ -16,6 +30,3 @@ The following terms are part of the [Ubiquitous Language of the Domain Connected
 | Trunk Access       | A permission to open the trunk of a car which is explicitly granted to an external person        |         |
 | Trunk Access Token | A 24-char alphanumeric proof of the trunk access                                                 |         |
 | Trunk Permission   | A trunk access (explicitly granted) or the implicit permission of customer with active rental    |         |
-
-## Used Terms of the External System
-TODO

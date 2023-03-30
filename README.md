@@ -1,4 +1,8 @@
-# ConnectedCarServicesApplicationVersion2.0 (CCSAppV2.0) Documentation
+# ConnectedCarServicesApplication (CCSApp) Documentation
+
+This repository contains the CCSApp project documentation.
+
+For a more general overview, take a look [here](https://github.com/ccsapp/.github)
 
 ## ANALYSIS
 

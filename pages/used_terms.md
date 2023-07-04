@@ -1,6 +1,6 @@
 # Used Terms
 
-# Car-related Terms
+## Car-related Terms
 
 The ubiquitous language defined in this documentation is the language foundation of the terms that are consistently used in the doamin ConnectedCar and in the applications residing to this domain. New applications can add additional terms to this foundation if the terms are application-agnostic and, threfore, needed by other applications that are based on the domain ConnectedCar.
 
